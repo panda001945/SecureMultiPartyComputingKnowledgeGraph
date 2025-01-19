@@ -1,0 +1,17 @@
+{
+    "nodes": {
+        "fields": [
+            {"name": "id", "type": "string", "required": true},
+            {"name": "label", "type": "string", "required": true},
+            {"name": "properties", "type": "object", "required": false}
+        ]
+    },
+    "edges": {
+        "fields": [
+            {"name": "source", "type": "string", "required": true},
+            {"name": "target", "type": "string", "required": true},
+            {"name": "relationship", "type": "string", "required": true},
+            {"name": "properties", "type": "object", "required": false}
+        ]
+    }
+}

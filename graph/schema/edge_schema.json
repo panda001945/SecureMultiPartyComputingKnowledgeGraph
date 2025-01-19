@@ -1,0 +1,11 @@
+{
+    "IMPLEMENTS": {
+        "required": ["source", "target", "type"]
+    },
+    "APPLIED_TO": {
+        "required": ["source", "target", "type"]
+    },
+    "PARTICIPATES_IN": {
+        "required": ["source", "target", "type"]
+    }
+}
